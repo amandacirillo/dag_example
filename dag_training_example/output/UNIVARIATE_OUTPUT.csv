@@ -1,0 +1,10 @@
+item,value,stat_name
+item1,8.0,nobs
+item2,7.0,nobs
+item3,8.0,nobs
+item1,3.375,mean
+item2,3.5714285714285716,mean
+item3,2.5,mean
+item1,1.407885953173359,std
+item2,0.9759000729485333,std
+item3,1.1952286093343936,std

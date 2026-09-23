@@ -1,0 +1,17 @@
+digraph DAG {
+    rankdir="LR";
+    node [style=filled];
+    "common::raw_scores" [label="common\nraw_scores", fillcolor="lightgreen"];
+    "common::clean_scores" [label="common\nclean_scores", fillcolor="lightblue"];
+    "univariate::grouped_by_item" [label="univariate\ngrouped_by_item", fillcolor="lightblue"];
+    "univariate::nobs" [label="univariate\nnobs", fillcolor="khaki"];
+    "univariate::mean" [label="univariate\nmean", fillcolor="khaki"];
+    "univariate::std" [label="univariate\nstd", fillcolor="khaki"];
+    "bivariate::correlation" [label="bivariate\ncorrelation", fillcolor="khaki"];
+    "common::raw_scores" -> "common::clean_scores";
+    "common::clean_scores" -> "univariate::grouped_by_item";
+    "common::clean_scores" -> "bivariate::correlation";
+    "univariate::grouped_by_item" -> "univariate::nobs";
+    "univariate::grouped_by_item" -> "univariate::mean";
+    "univariate::grouped_by_item" -> "univariate::std";
+}

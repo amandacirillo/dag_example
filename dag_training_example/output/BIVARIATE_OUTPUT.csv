@@ -1,0 +1,10 @@
+item_a,item_b,value,stat_name
+item1,item1,1.0,correlation
+item2,item1,0.8230089610690761,correlation
+item3,item1,0.9762956279494203,correlation
+item1,item2,0.8230089610690761,correlation
+item2,item2,1.0,correlation
+item3,item2,0.7669649888473704,correlation
+item1,item3,0.9762956279494203,correlation
+item2,item3,0.7669649888473704,correlation
+item3,item3,1.0,correlation
