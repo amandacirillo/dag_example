@@ -1,5 +1,7 @@
 # DAG Training Example
 
+> **Note:** This is a from-scratch recreation of an architectural pattern I built at my employer, not the original production code -- rebuilt with a fabricated/generic domain and no proprietary business logic, credentials, or internal resource identifiers.
+
 A small, standalone, runnable model of the **Directed Acyclic Graph (DAG)
 analysis engine** pattern used in PARSTAT's `dag_utils` / `dag_main`. It is
 built from scratch (no proprietary code) purely to teach the pattern:
